@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Class1">
+      <UniqueIdentifier>{d5b68ea4-bf2a-4ea2-bd07-04fc3a4a46bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ 길라잡이 베타 %281%29">
+      <UniqueIdentifier>{1f93310d-2a63-41e7-9dd1-20e5b9d76ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class2">
+      <UniqueIdentifier>{a47fcb6d-06a5-47f7-afd6-7ad5143a399e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class3">
+      <UniqueIdentifier>{d7ddb926-bfb4-434c-b501-e5ab62a0b6de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1008_A_divided_by_B.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="1330_두_수_비교하기.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2438_별_찍기_-_1.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2562_최댓값.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2675_문자열_반복.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2739_구구단.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2920_음계.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="8958_OX퀴즈.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="10818_최소,_최대.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="10869_사칙연산.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="10950_A+B_-_3.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="10951_A+B_-_4.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="10952_A+B_-_5.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="11654_아스키_코드.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="11720_숫자의_합.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2750_수_정렬하기.cpp">
+      <Filter>소스 파일\BOJ 길라잡이 베타 %281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="2941_Croatia_Alphabet.cpp">
+      <Filter>소스 파일\BOJ 길라잡이 베타 %281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10815_숫자_카드.cpp">
+      <Filter>소스 파일\BOJ 길라잡이 베타 %281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10989_수_정렬하기_3.cpp">
+      <Filter>소스 파일\BOJ 길라잡이 베타 %281%29</Filter>
+    </ClCompile>
+    <ClCompile Include="1920_수_찾기.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="2751_수_정렬하기_2.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="1018_체스판_다시_칠하기.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="1181_단어_정렬.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="1259_팰린드롬수.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="1978_소수_찾기.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="2164_카드2.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="2609_최대공약수와_최소공배수.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="2798_블랙잭.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="4153_직각삼각형.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="9012_괄호.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="10250_ACM_호텔.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="10814_나이순_정렬.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="10816_숫자_카드_2.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="10828_스택.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="10845_큐.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="10866_덱.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="11050_이항_계수_1.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="11650_좌표_정렬하기.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="11866_요세푸스_문제_0.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="1003_피보나치_함수.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="1012_유기농_배추.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="1074_Z.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="1463_1로_만들기.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="1620_나는야_포켓몬_마스터_이다솜.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="1697_숨바꼭질.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="1764_듣보잡.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="1927_최소_힙.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="1931_회의실_배정.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="2606_바이러스.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="2630_색종이_만들기.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="7576_토마토.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="9095_1,2,3_더하기.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="11279_최대_힙.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="18870_좌표_압축.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
