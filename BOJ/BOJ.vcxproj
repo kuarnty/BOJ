@@ -158,6 +158,7 @@
     <ClCompile Include="10952_A+B_-_5.cpp" />
     <ClCompile Include="10989_수_정렬하기_3.cpp" />
     <ClCompile Include="11050_이항_계수_1.cpp" />
+    <ClCompile Include="11170_0의_개수.cpp" />
     <ClCompile Include="11279_최대_힙.cpp" />
     <ClCompile Include="11650_좌표_정렬하기.cpp" />
     <ClCompile Include="11654_아스키_코드.cpp" />
@@ -189,6 +190,7 @@
     <ClCompile Include="2920_음계.cpp" />
     <ClCompile Include="2941_Croatia_Alphabet.cpp" />
     <ClCompile Include="4153_직각삼각형.cpp" />
+    <ClCompile Include="4375_1.cpp" />
     <ClCompile Include="7576_토마토.cpp" />
     <ClCompile Include="8958_OX퀴즈.cpp" />
     <ClCompile Include="9012_괄호.cpp" />

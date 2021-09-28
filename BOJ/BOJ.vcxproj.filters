@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Class3">
       <UniqueIdentifier>{d7ddb926-bfb4-434c-b501-e5ab62a0b6de}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\기타">
+      <UniqueIdentifier>{3b86ed74-4866-4097-8c00-f7c5628b5e2e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -191,6 +194,12 @@
     </ClCompile>
     <ClCompile Include="18870_좌표_압축.cpp">
       <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="11170_0의_개수.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="4375_1.cpp">
+      <Filter>소스 파일\기타</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
