@@ -1,4 +1,5 @@
 //#include <iostream>
+// //strlen은 cstring에 있다 쓰레기같은거
 //
 //using namespace std;
 //

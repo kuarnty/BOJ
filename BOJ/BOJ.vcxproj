@@ -215,8 +215,10 @@
     <ClCompile Include="8958_OX퀴즈.cpp" />
     <ClCompile Include="9012_괄호.cpp" />
     <ClCompile Include="9095_1,2,3_더하기.cpp" />
+    <ClCompile Include="9251_LCS.cpp" />
     <ClCompile Include="9465_스티커.cpp" />
     <ClCompile Include="9547_대통령_선거.cpp" />
+    <ClCompile Include="9663_N-Queen.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
