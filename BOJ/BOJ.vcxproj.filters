@@ -31,6 +31,21 @@
     <Filter Include="소스 파일\Class4">
       <UniqueIdentifier>{34fa3473-99ab-4741-830f-d28b5626279d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DP">
+      <UniqueIdentifier>{6f34c1f5-ae4d-456c-b997-5f38386d9421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Algos">
+      <UniqueIdentifier>{8dae08c5-3ac8-4772-94d9-b064285d7cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\진짜 최종 구데기컵 2 2">
+      <UniqueIdentifier>{1724482f-fc5d-47e4-bf8e-0d86aee3ec4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class5">
+      <UniqueIdentifier>{0581aaa8-d0db-4404-931a-0912e8e84362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class6">
+      <UniqueIdentifier>{10200a20-9568-4ab7-86e6-510cad10e18e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -219,9 +234,6 @@
     <ClCompile Include="4848_집합_숫자_표기법.cpp">
       <Filter>소스 파일\기타</Filter>
     </ClCompile>
-    <ClCompile Include="22233_가희와_키워드.cpp">
-      <Filter>소스 파일\기타</Filter>
-    </ClCompile>
     <ClCompile Include="1406_에디터.cpp">
       <Filter>소스 파일\기타</Filter>
     </ClCompile>
@@ -276,5 +288,211 @@
     <ClCompile Include="9663_N-Queen.cpp">
       <Filter>소스 파일\Class4</Filter>
     </ClCompile>
+    <ClCompile Include="12865_평범한_배낭.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="2447_별_찍기_-_10.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="1992_쿼드트리.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="2193_이친수.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2579_계단_오르기.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="1912_연속합.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="1890_점프.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2156_포도주_시식.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="9252_LCS_2.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="2457_공주님의_정원.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="13549_숨바꼭질_3.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="1967_트리의_지름.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="2206_벽_부수고_이동하기.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="11404_플로이드.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="1167_트리의_지름.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="1865_웜홀.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Algoris\Algoris\Edge.cpp">
+      <Filter>소스 파일\Algos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Algoris\Algoris\Graph.cpp">
+      <Filter>소스 파일\Algos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Algoris\Algoris\Vertex.cpp">
+      <Filter>소스 파일\Algos</Filter>
+    </ClCompile>
+    <ClCompile Include="781_1_⭐1번-한별_찍기.cpp">
+      <Filter>소스 파일\진짜 최종 구데기컵 2 2</Filter>
+    </ClCompile>
+    <ClCompile Include="781_2_Binary_Game_2.cpp">
+      <Filter>소스 파일\진짜 최종 구데기컵 2 2</Filter>
+    </ClCompile>
+    <ClCompile Include="781_12_(🔢,➕)-🅰➕🅱.cpp">
+      <Filter>소스 파일\진짜 최종 구데기컵 2 2</Filter>
+    </ClCompile>
+    <ClCompile Include="781_11_하이퍼하게_누울_하이퍼_자리를_찾아라.cpp">
+      <Filter>소스 파일\진짜 최종 구데기컵 2 2</Filter>
+    </ClCompile>
+    <ClCompile Include="2166_다각형의_면적.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="2467_용액.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="2108_통계학.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="1197_최소_스패닝_트리.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="1806_부분합.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="2239_스도쿠.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="11689_GCD(n,k)=1.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="10942_팰린드롬.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="1005_ACM_Craft.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="2252_줄_세우기.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="2473_세_용액.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="2623_음악프로그램.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="1260_DFS와_BFS.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="7579_앱.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="9466_텀_프로젝트.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="1001_A-B.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2475_검증수.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="1202_보석_도둑.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="11049_행렬_곱셈_순서.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="12100_2048_(Easy).cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="17387_선분_교차_2.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="10171_고양이.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="1208_부분수열의_합_2.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="10172_개.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2098_외판원_순회.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="9328_열쇠.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="14003_가장_긴_증가하는_부분_수열_5.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="13460_구슬_탈출_2.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="2753_윤년.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="9498_시험_성적.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="10809_알파벳_찾기.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="10871_X보다_작은_수.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2439_별_찍기_-_2.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2742_기찍_N.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2884_알람_시계.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="1152_단어의_개수.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="2754_학점계산.cpp">
+      <Filter>소스 파일\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="13459_구슬_탈출.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="2533_사회망_서비스(SNS).cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="14725_개미굴.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="13334_철로.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="1019_책_페이지.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Algoris\Algoris\Edge.h">
+      <Filter>소스 파일\Algos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Algoris\Algoris\Graph.h">
+      <Filter>소스 파일\Algos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Algoris\Algoris\Vertex.h">
+      <Filter>소스 파일\Algos</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

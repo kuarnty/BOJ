@@ -16,7 +16,12 @@
 #define MAX(A,B)		(((A) > (B)) ? (A) : (B))
 #define MIN(A,B)		(((A) < (B)) ? (A) : (B))
 
+#define ll long long
+
 using namespace std;
+
+vector<ll> result(10, 0);
+vector<ll> preSum;
 
 int main()
 {
@@ -24,7 +29,8 @@ int main()
 	std::cin.tie(NULL);
 	std::cout.tie(NULL);
 
-
+	int n;
+	cin >> n;
 
 	return 0;
 }
