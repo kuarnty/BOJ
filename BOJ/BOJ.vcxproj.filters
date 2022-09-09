@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\Class6">
       <UniqueIdentifier>{10200a20-9568-4ab7-86e6-510cad10e18e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Algorithm">
+      <UniqueIdentifier>{9c6bc10b-9f68-407a-9098-f748b143499c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -482,6 +485,12 @@
     </ClCompile>
     <ClCompile Include="1019_책_페이지.cpp">
       <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="2042_구간_합_구하기.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment_Tree.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

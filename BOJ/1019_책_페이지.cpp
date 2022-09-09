@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <math.h>
 
 #define endl			'\n'
 
@@ -23,6 +24,15 @@ using namespace std;
 vector<ll> result(10, 0);
 vector<ll> preSum;
 
+void calc(int x, int num)
+{
+	while(x > 0)
+	{
+		result[x % 10] += num;
+		x /= 10;
+	}
+}
+
 int main()
 {
 	ios::sync_with_stdio(0);
@@ -31,6 +41,42 @@ int main()
 
 	int n;
 	cin >> n;
+
+	int num = 1;
+	int s = 1;
+
+	while (s <= n) 
+	{
+		while (n % 10 != 9 && s <= n)
+		{
+			calc(n, num);
+			n--;
+		}
+
+		if (n < s)
+			break;
+
+		while (s % 10 != 0 && s <= n)
+		{
+			calc(s, num);
+			s++;
+		}
+
+		s /= 10;
+		n /= 10;
+		
+		for (int i = 0; i < 10; i++)
+		{
+			result[i] += (n - s + 1) * num;
+		}
+		
+		num *= 10;
+	}
+
+	for (int i = 0; i < 10; i++)
+	{
+		cout << result[i] << " ";
+	}
 
 	return 0;
 }
