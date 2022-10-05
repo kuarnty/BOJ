@@ -492,6 +492,24 @@
     <ClCompile Include="Segment_Tree.cpp">
       <Filter>소스 파일\Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="2841_외계인의_기타_연주.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="18258_큐_2.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="7785_회사에_있는_사람.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="16287_Parcel.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="1509_팰린드롬_분할.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="2727_2,3_거듭제곱의_합.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Algoris\Algoris\Edge.h">
