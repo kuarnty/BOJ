@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\Algorithm">
       <UniqueIdentifier>{9c6bc10b-9f68-407a-9098-f748b143499c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\이벤트_트리_만들기">
+      <UniqueIdentifier>{7054dc56-7831-4ed8-82dc-57f2ca86eb31}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -509,6 +512,9 @@
     </ClCompile>
     <ClCompile Include="2727_2,3_거듭제곱의_합.cpp">
       <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="1486_등산.cpp">
+      <Filter>소스 파일\이벤트_트리_만들기</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
