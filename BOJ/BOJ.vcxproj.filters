@@ -34,9 +34,6 @@
     <Filter Include="소스 파일\DP">
       <UniqueIdentifier>{6f34c1f5-ae4d-456c-b997-5f38386d9421}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Algos">
-      <UniqueIdentifier>{8dae08c5-3ac8-4772-94d9-b064285d7cb0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\진짜 최종 구데기컵 2 2">
       <UniqueIdentifier>{1724482f-fc5d-47e4-bf8e-0d86aee3ec4e}</UniqueIdentifier>
     </Filter>
@@ -51,6 +48,12 @@
     </Filter>
     <Filter Include="소스 파일\이벤트_트리_만들기">
       <UniqueIdentifier>{7054dc56-7831-4ed8-82dc-57f2ca86eb31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graph">
+      <UniqueIdentifier>{8dae08c5-3ac8-4772-94d9-b064285d7cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UCPC 2023 예선">
+      <UniqueIdentifier>{c7f66dc2-4c45-4fa1-b10e-306593aaa847}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -343,13 +346,13 @@
       <Filter>소스 파일\Class4</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Algoris\Algoris\Edge.cpp">
-      <Filter>소스 파일\Algos</Filter>
+      <Filter>소스 파일\Graph</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Algoris\Algoris\Graph.cpp">
-      <Filter>소스 파일\Algos</Filter>
+      <Filter>소스 파일\Graph</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Algoris\Algoris\Vertex.cpp">
-      <Filter>소스 파일\Algos</Filter>
+      <Filter>소스 파일\Graph</Filter>
     </ClCompile>
     <ClCompile Include="781_1_⭐1번-한별_찍기.cpp">
       <Filter>소스 파일\진짜 최종 구데기컵 2 2</Filter>
@@ -516,16 +519,31 @@
     <ClCompile Include="1486_등산.cpp">
       <Filter>소스 파일\이벤트_트리_만들기</Filter>
     </ClCompile>
+    <ClCompile Include="11438_LCA2.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="6549_히스토그램에서_가장_큰_직사각형.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="1007_벡터_매칭.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="I번 - 자석.cpp">
+      <Filter>소스 파일\UCPC 2023 예선</Filter>
+    </ClCompile>
+    <ClCompile Include="K번 - 세미나 배정.cpp">
+      <Filter>소스 파일\UCPC 2023 예선</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Algoris\Algoris\Edge.h">
-      <Filter>소스 파일\Algos</Filter>
+      <Filter>소스 파일\Graph</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Algoris\Algoris\Graph.h">
-      <Filter>소스 파일\Algos</Filter>
+      <Filter>소스 파일\Graph</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Algoris\Algoris\Vertex.h">
-      <Filter>소스 파일\Algos</Filter>
+      <Filter>소스 파일\Graph</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

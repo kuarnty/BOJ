@@ -17,8 +17,12 @@ int main()
 		cin >> seq[i];
 
 	for (int i = 0; i < n; i++)
+	{
 		if (seq[i] < x)
+		{
 			cout << seq[i] << ' ';
+		}
+	}
 
 	return 0;
 }

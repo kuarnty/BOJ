@@ -1,13 +1,13 @@
-//#include <iostream>
-//
-//using namespace std;
-//
-//int main()
-//{
-//	char a;
-//	cin >> a;
-//	int b = a;
-//	cout << b;
-//
-//	return 0;
-//}
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	char a;
+	cin >> a;
+	int b = a;
+	cout << b;
+
+	return 0;
+}
