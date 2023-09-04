@@ -534,6 +534,9 @@
     <ClCompile Include="K번 - 세미나 배정.cpp">
       <Filter>소스 파일\UCPC 2023 예선</Filter>
     </ClCompile>
+    <ClCompile Include="1562_계단_수.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Algoris\Algoris\Edge.h">
