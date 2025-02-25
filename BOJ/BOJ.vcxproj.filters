@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\UCPC 2023 예선">
       <UniqueIdentifier>{c7f66dc2-4c45-4fa1-b10e-306593aaa847}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Class7">
+      <UniqueIdentifier>{b5c706db-6c57-4178-bdb4-fdcd825c8dd3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -536,6 +539,39 @@
     </ClCompile>
     <ClCompile Include="1562_계단_수.cpp">
       <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="1708_볼록_껍질.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="1725_히스토그램.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="4008_특공대.cpp">
+      <Filter>소스 파일\Class7</Filter>
+    </ClCompile>
+    <ClCompile Include="10775_공항.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Loweast_Common_Ancestor.cpp">
+      <Filter>소스 파일\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="1761_정점들의_거리.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="1786_찾기.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="15824_너_봄에는_캡사이신이_맛있단다.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="2150_Stronly_Connected_Component.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="5719_거의_최단_경로.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="19585_전설.cpp">
+      <Filter>소스 파일\Class6</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
