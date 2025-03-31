@@ -3,6 +3,8 @@
 #include <string>
 #include <algorithm>
 
+#include <cmath>
+
 #define endl			'\n'
 
 #ifndef INT_MAX
@@ -12,6 +14,8 @@
 #define LONG_LONG_MIN	-9223372036854775808
 #endif
 
+#define MAX_NUM 150000
+
 using namespace std;
 
 int main()
@@ -20,7 +24,26 @@ int main()
 	std::cin.tie(NULL);
 	std::cout.tie(NULL);
 
+	int n;
+	cin >> n;
 
+	vector<int> v;
+	long double t = 0;
+	for (int i = 1; floor(t) <= MAX_NUM; i++)
+	{
+		t += log10(i);
+		if ((int)(t + 1e-6) == n - 1)
+			v.push_back(i);
+	}
+
+	if (v.empty())
+		cout << "NO" << endl;
+	else
+	{
+		cout << v.size() << endl;
+		for (int i = 0; i < v.size(); i++)
+			cout << v[i] << endl;
+	}
 
 	return 0;
 }

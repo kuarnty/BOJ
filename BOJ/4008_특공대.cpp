@@ -3,57 +3,99 @@
 #include <string>
 #include <algorithm>
 
+#define endl			'\n'
+
+#ifndef INT_MAX
+#define INT_MAX			2147483647
+#define INT_MIN			-2147483648
+#define LONG_LONG_MAX	9223372036854775807
+#define LONG_LONG_MIN	-9223372036854775808
+#endif
+
+#define MAX_N	1000000
+
 using namespace std;
 
 typedef long long ll;
-typedef vector<ll> vll;
+typedef long double ld;
+
+struct Line
+{
+	ll a, b;	// ax + b
+	ld crossX;	// x of intersection point
+};
 
 int n, a, b, c;
-const int maxSize = 1000010;
-vll v(maxSize), s(maxSize), dp(maxSize), xpos(maxSize), stk(maxSize);
-int scnt;
+int X[MAX_N];
+ll prefixSum[MAX_N];
+ll dp[MAX_N];
 
-inline ll func(ll x) {
-	return (ll)a * x * x + (ll)b * x + c;
+int top = -1;
+vector<Line> lines(MAX_N);
+
+ld crossX(const Line& a, const Line& b)
+{
+	return (ld)(b.b - a.b) / (a.a - b.a);
 }
 
-inline ll k(ll i) {
-	return -2 * a * s[i];
-}
+int main()
+{
+	ios::sync_with_stdio(0);
+	std::cin.tie(NULL);
+	std::cout.tie(NULL);
 
-inline ll m(ll i) {
-	return a * s[i] * s[i] - b * s[i] + dp[i];
-}
-
-double getCross(int p, int q) { //교점
-	ll k1 = k(p), m1 = m(p);
-	ll k2 = k(q), m2 = m(q);
-	return (double)(m1 - m2) / (k2 - k1);
-}
-
-int main() {
-	ios_base::sync_with_stdio(0); cin.tie(0);
-	cin >> n >> a >> b >> c;
-	for (int i = 1; i <= n; i++) cin >> v[i], s[i] = s[i - 1] + v[i];
-	int pt = 1;
-	for (int i = 1; i <= n; i++) {
-		// 일단 i번 병사까지 모두 한 특공대로 만들었을 때의 전투력을 dp에 넣기
-		dp[i] = func(s[i]);
-		if (scnt) {
-			while (pt < scnt && xpos[pt + 1] < s[i]) pt++; //점화식의 우항이 최대인 위치 구함
-			int j = stk[pt];
-			dp[i] = max(dp[i], dp[j] + func(s[i] - s[j]));
-
-			while (scnt > 1 && xpos[scnt] > getCross(stk[scnt], i)) --scnt;
-			stk[++scnt] = i;
-			xpos[scnt] = getCross(stk[scnt - 1], i);
-			if (pt > scnt) pt = scnt;
-		}
-		else {
-			stk[++scnt] = i;
-			xpos[scnt] = -1e9;
-		}
+	cin >> n;
+	cin >> a >> b >> c;
+	cin >> X[0];
+	prefixSum[0] = X[0];
+	for (int i = 1; i < n; i++)
+	{
+		cin >> X[i];
+		prefixSum[i] = X[i] + prefixSum[i - 1];
 	}
-	cout << dp[n] << endl;
+
+	dp[0] = a * X[0] * X[0] + b * X[0] + c;
+	int curLineIdx = 0;
+
+	for (int i = 1; i < n; i++)
+	{
+		ll alpha = -2 * a * prefixSum[i - 1];
+		ll beta = dp[i - 1] + a * prefixSum[i - 1] * prefixSum[i - 1] - b * prefixSum[i - 1];
+		Line newLine = { alpha, beta, 0 };
+
+		while (top >= 0)
+		{
+			Line l = lines[top];
+			newLine.crossX = crossX(newLine, l);
+			if (newLine.crossX < l.crossX)
+				lines[top--] = newLine;
+			else
+				break;
+		}
+		lines[++top] = newLine;
+
+		ll x = prefixSum[i];
+		if (x >= lines[top].crossX)
+			curLineIdx = top;
+		else
+		{
+			int lo = curLineIdx;
+			int hi = top;
+			while (lo + 1 < hi)
+			{
+				int mid = (lo + hi) / 2;
+				((x < lines[mid].crossX) ? hi : lo) = mid;
+			}
+			curLineIdx = lo;
+		}
+		
+		// if left(nonzero) case is selected, it means that dividing is better
+		// else(zero), not dividing (and making one team is better)
+		// left(nonzero) case is calculated whlie omitting the constant term
+		dp[i] = max(lines[curLineIdx].a * x + lines[curLineIdx].b, (ll)0) + a * x * x + b * x + c;
+	}
+
+	cout << dp[n - 1];
+
 	return 0;
 }

@@ -58,6 +58,15 @@
     <Filter Include="소스 파일\Class7">
       <UniqueIdentifier>{b5c706db-6c57-4178-bdb4-fdcd825c8dd3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\삼성 SW 역량 테스트 기출 문제">
+      <UniqueIdentifier>{63449221-f891-481d-a91d-450ec48be5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Random Marathon">
+      <UniqueIdentifier>{d9f010b9-b4c8-4f15-a8b9-612dc36f6233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Random Marathon\Course 43">
+      <UniqueIdentifier>{ea8ba0b6-d2b0-4ff9-84c5-d9a36ab6d26a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -573,6 +582,78 @@
     <ClCompile Include="19585_전설.cpp">
       <Filter>소스 파일\Class6</Filter>
     </ClCompile>
+    <ClCompile Include="3176 도로 네트워크.cpp">
+      <Filter>소스 파일\Class6</Filter>
+    </ClCompile>
+    <ClCompile Include="3190 뱀.cpp">
+      <Filter>소스 파일\삼성 SW 역량 테스트 기출 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11659 구간 합 구하기 4.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="2805 나무 자르기.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="14940 쉬운 최단거리.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="15663 N과 M %289%29.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="1238 파티.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="1918 후위표기식.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="11444 피보나치 수 6.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="7453 합이 0인 네 정수.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="2292 벌집.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="2839 설탕 배달.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="5430 AC.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="7569 토마토.cpp">
+      <Filter>소스 파일\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="1874 스택 수열.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="2143 두 배열의 합.cpp">
+      <Filter>소스 파일\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="15652 N과 M %284%29.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="15666 N과 M %2812%29.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="16953 A → B.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="1916 최소비용 구하기.cpp">
+      <Filter>소스 파일\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="17013 Flipper.cpp">
+      <Filter>소스 파일\Random Marathon\Course 43</Filter>
+    </ClCompile>
+    <ClCompile Include="9388 Arbiter Login.cpp">
+      <Filter>소스 파일\Random Marathon\Course 43</Filter>
+    </ClCompile>
+    <ClCompile Include="7095 Factorials.cpp">
+      <Filter>소스 파일\Random Marathon\Course 43</Filter>
+    </ClCompile>
+    <ClCompile Include="7121 Pencil Factory.cpp">
+      <Filter>소스 파일\Random Marathon\Course 43</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Algoris\Algoris\Edge.h">
@@ -584,5 +665,10 @@
     <ClInclude Include="..\..\Algoris\Algoris\Vertex.h">
       <Filter>소스 파일\Graph</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\AppData\Local\Temp\MicrosoftEdgeDownloads\0b162d31-2e05-4b00-9fad-c1c1ac1d2f55\B_P1_lattice.py">
+      <Filter>소스 파일\Random Marathon\Course 43</Filter>
+    </None>
   </ItemGroup>
 </Project>

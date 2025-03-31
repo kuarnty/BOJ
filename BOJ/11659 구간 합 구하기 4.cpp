@@ -12,6 +12,10 @@
 #define LONG_LONG_MIN	-9223372036854775808
 #endif
 
+#define ABS(A)			(((A) > 0) ? (A) : (-A))
+#define MAX(A,B)		(((A) > (B)) ? (A) : (B))
+#define MIN(A,B)		(((A) < (B)) ? (A) : (B))
+
 using namespace std;
 
 int main()
@@ -20,7 +24,21 @@ int main()
 	std::cin.tie(NULL);
 	std::cout.tie(NULL);
 
+	int n, m;
+	cin >> n >> m;
+	vector<int> nums(n + 1, 0);
+	for (int i = 1; i <= n; i++)
+	{
+		cin >> nums[i];
+		nums[i] += nums[i - 1];
+	}
 
+	while (m--)
+	{
+		int i, j;
+		cin >> i >> j;
+		cout << nums[j] - nums[i - 1] << endl;
+	}
 
 	return 0;
 }

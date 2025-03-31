@@ -12,6 +12,10 @@
 #define LONG_LONG_MIN	-9223372036854775808
 #endif
 
+#define ABS(A)			(((A) > 0) ? (A) : (-A))
+#define MAX(A,B)		(((A) > (B)) ? (A) : (B))
+#define MIN(A,B)		(((A) < (B)) ? (A) : (B))
+
 using namespace std;
 
 int main()
@@ -20,7 +24,17 @@ int main()
 	std::cin.tie(NULL);
 	std::cout.tie(NULL);
 
+	int n;
+	cin >> n;
 
+	int bag5 = n / 5;
+	int bag3 = 0;
+	while (bag5 >= 0 && (n - (bag5 * 5)) % 3 != 0)
+		bag5--;
+	if (bag5 == -1)
+		cout << -1;
+	else
+		cout << bag5 + ((n - (bag5 * 5)) / 3);
 
 	return 0;
 }
