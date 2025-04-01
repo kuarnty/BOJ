@@ -654,6 +654,15 @@
     <ClCompile Include="7121 Pencil Factory.cpp">
       <Filter>소스 파일\Random Marathon\Course 43</Filter>
     </ClCompile>
+    <ClCompile Include="16198 에너지 모으기.cpp">
+      <Filter>소스 파일\Random Marathon\Course 43</Filter>
+    </ClCompile>
+    <ClCompile Include="11613 ASCII Addition.cpp">
+      <Filter>소스 파일\Random Marathon\Course 43</Filter>
+    </ClCompile>
+    <ClCompile Include="33614 2^3은.cpp">
+      <Filter>소스 파일\Random Marathon\Course 43</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Algoris\Algoris\Edge.h">
