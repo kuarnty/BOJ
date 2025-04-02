@@ -678,6 +678,24 @@
     <ClCompile Include="28702 FizzBuzz.cpp">
       <Filter>소스 파일\Class2</Filter>
     </ClCompile>
+    <ClCompile Include="1436 영호감독 숌.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="1676 팩토리얼 0의 개수.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="7568 덩치.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="11651 좌표 정렬하기 2.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="4949 균형잡힌 세상.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="10773 제로.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Algoris\Algoris\Edge.h">
