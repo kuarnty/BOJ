@@ -696,6 +696,9 @@
     <ClCompile Include="10773 제로.cpp">
       <Filter>소스 파일\Class2</Filter>
     </ClCompile>
+    <ClCompile Include="18110 solved.ac.cpp">
+      <Filter>소스 파일\Class2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Algoris\Algoris\Edge.h">
